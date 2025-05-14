@@ -10,7 +10,7 @@ nav a {
 }
 
 h1 {
-    color: darkgreen;
+    color: goldenrod;
 }
 
 img {
@@ -22,5 +22,44 @@ img {
 }
 
 p {
-    padding: 8px;
+    padding: 0;
+}
+
+main {
+    max-width: 900px;
+}
+
+main p {
+    width: 25em;
+}
+
+main img {
+    margin-left: 12%;
+}
+
+aside {
+    width: 25rem;
+    margin: 1rem;
+    border: 2px solid rgb(0, 0, 0 / 0.2);
+    padding: ;
+    background-color: #333;
+    color: #eee;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+body {
+    width: 100%;
+    background-color: #333;
+    color: #eee;
+}
+
+footer {
+    margin-top: 25px;
+    border-top: 1px solid #000;
+    text-align: center;
 }
