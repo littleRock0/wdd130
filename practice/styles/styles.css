@@ -7,3 +7,17 @@ body {
 body header h1 {
     color: #eee;
 }
+
+header nav {
+    background-color: darkgreen;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: -10px;
+}
+
+body header nav a{
+    background-color: darkgreen;
+    color: #eee;
+    font-size: 18px;
+}

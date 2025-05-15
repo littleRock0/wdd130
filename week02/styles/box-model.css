@@ -30,5 +30,19 @@ cite {
 }
 
 body {
-    background-color: #222;
+    background-color: #202020;
+    min-height: 679px;
+}
+header nav {
+    background-color: darkgreen;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+body header nav a{
+    background-color: darkgreen;
+    color: #eee;
+    font-size: 18px;
 }
