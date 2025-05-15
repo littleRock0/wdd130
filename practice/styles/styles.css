@@ -4,3 +4,6 @@ body {
     min-height: 665px;
 }
 
+body header h1 {
+    color: #eee;
+}
