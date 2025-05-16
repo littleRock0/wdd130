@@ -40,7 +40,7 @@ main img {
 aside {
     width: 25rem;
     margin: 1rem;
-    border: 2px solid rgb(0, 0, 0 / 0.2);
+    border: 2px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
     background-color: #333;
     color: #eee;
