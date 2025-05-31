@@ -51,23 +51,6 @@ header, main, footer {
     margin: 0 auto;
 }
 
-h1, h2 {
-    font-family: var(--heading-font);
-}
-
-h1 {
-    color: var(--primary-color);
-}
-
-h2 {
-    color: var(--accent2-color);
-}
-
-nav, p, section, article {
-    margin: 15px;
-    padding: 7px;
-}
-
 .hero img {
     width: 100%;
     height: auto;
@@ -116,6 +99,11 @@ h1 {
     background-color: #ef2d5700;
 }
 
+nav, p, section, article {
+    margin: 15px;
+    padding: 7px;
+}
+
 section {
     display: grid;
 }
@@ -127,14 +115,51 @@ section h1 {
 }
 
 .history {
-    display: flex;
+    display: grid;
 }
 
-.history img{
-    display: flex;
-    flex-shrink: 0;
-    object-fit: contain;
-    flex-wrap: wrap;
+.h {
+    align-content: center;
+}
+
+.history p, .h img {
+    margin-top: -30px;
+}
+
+.h img {
+    height: 80%;
+}
+
+.adventure {
+    align-items: center;
+}
+
+.head {
+    grid-column: 1/6;
+    text-align: center;
+}
+
+.a img {
+    width: 90%;
+    margin-top: 20px;
+    max-height: 115px;
+}
+
+.a figcaption {
+    font-size: 12px;
+    color: var(--accent3-color);
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+}
+
+h1 {
+    color: var(--primary-color);
+}
+
+h2 {
+    color: var(--accent2-color);
 }
 
 footer {
@@ -166,10 +191,3 @@ footer p{
 .one img {
     background-color: #303030;
 }
-
-/*
-main {
-    background-color: #303030;
-} <!-- for testing purposes -->
-*/
-
