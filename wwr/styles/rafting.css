@@ -116,8 +116,29 @@ h1 {
     background-color: #ef2d5700;
 }
 
-.history {
-    display: flex;
+section {
+    display: grid;
+}
+
+section h1 {
+    text-align: center;
+    grid-column: 3/4;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.history p {
+    ;
+}
+
+
+footer {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+footer p{
+    text-align: center;
+    margin-top: 25px;
 }
 
 .socialmedia {
@@ -125,6 +146,7 @@ h1 {
     justify-content: right;
     gap: 10px;
     max-height: 50px;
+    margin-right: 60px;
 }
 
 .socialmedia a {
@@ -138,3 +160,10 @@ h1 {
 .one img {
     background-color: #303030;
 }
+
+/*
+main {
+    background-color: #303030;
+} <!-- for testing purposes -->
+*/
+
