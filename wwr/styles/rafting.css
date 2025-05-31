@@ -126,10 +126,16 @@ section h1 {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.history p {
-    ;
+.history {
+    display: flex;
 }
 
+.history img{
+    display: flex;
+    flex-shrink: 0;
+    object-fit: contain;
+    flex-wrap: wrap;
+}
 
 footer {
     display: grid;
