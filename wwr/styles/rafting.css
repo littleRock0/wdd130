@@ -159,11 +159,11 @@ section h1 {
     height: 480px;
 }
 
-.info aside h2, li {
+.info .aside h2, li {
     background-color: var(--primary-color);
 }
 
-aside li {
+.aside li {
     font-family: var(--body-font);
     font-size: 13px;
 }
