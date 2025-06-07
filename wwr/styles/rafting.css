@@ -160,7 +160,7 @@ section h1 {
 }
 
 .info .aside h2, li {
-    background-color: var(--primary-color);
+    background-color: #303030
 }
 
 .aside li {
@@ -171,7 +171,6 @@ section h1 {
 figcaption {
     font-size: 12px;
     color: var(--accent3-color);
-    text-align: center;
 }
 
 h1, h2 {
@@ -184,15 +183,16 @@ h2 {
 
 .employees {
     display: flex;
-}
-
-.employees figure {
-    align-content: end;
     justify-content: space-around;
 }
 
-.employees figure img {
+.employees figure {
+    align-content: center;
+}
 
+.employees figure img {
+    height: 80%;
+    max-height: 250px;
 }
 
 form {
@@ -200,6 +200,7 @@ form {
     font-family: var(--body-font);
     justify-items: center;
     background-color: #303030;
+    padding: 10px 10px;
 }
 
 form * {
@@ -212,6 +213,7 @@ form * {
 
 fieldset {
     border: 0;
+    padding: 5px 5px;
 }
 
 .text {
@@ -230,8 +232,25 @@ textarea {
     color: var(--accent1-color);
 }
 
+.end {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding-top: 5px;
+    text-align: center;
+}
+
 button {
+    background-color: #202020;
     color: var(--accent3-color);
+}
+
+.wireframe {
+    margin-bottom: -50px;
+}
+
+.wireframe * {
+    color: var(--accent2-color);
 }
 
 footer {
