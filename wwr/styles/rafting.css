@@ -188,7 +188,7 @@ h2 {
 
 .employees figure {
     align-content: end;
-    justify-items: space-around;
+    justify-content: space-around;
 }
 
 .employees figure img {
