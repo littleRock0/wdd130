@@ -251,6 +251,7 @@ button {
 
 .wireframe * {
     color: var(--accent2-color);
+    text-decoration: none;
 }
 
 footer {
