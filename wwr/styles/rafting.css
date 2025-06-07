@@ -247,10 +247,15 @@ button {
 
 .wireframe {
     margin-bottom: -50px;
+    text-decoration: none;
 }
 
 .wireframe * {
     color: var(--accent2-color);
+    text-decoration: none;
+}
+
+.wireframe nav a {
     text-decoration: none;
 }
 
