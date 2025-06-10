@@ -32,6 +32,11 @@ header img {
     width: 50px;
     margin-top: 5%;
     margin-left: 5%;
+    background-color: var(--primary-color);
+}
+
+header a {
+    background-color: transparent;
 }
 
 * {
