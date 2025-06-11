@@ -144,6 +144,11 @@ section h1 {
     justify-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    background-color: var(--primary-color);
+}
+
+.action * {
+    background-color: var(--primary-color);
 }
 
 .action p {
@@ -151,7 +156,7 @@ section h1 {
 }
 
 .action a {
-    color: var(--accent3-color);
+    color: var(--accent2-color);
 }
 
 .content {
@@ -168,6 +173,13 @@ section h1 {
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    max-height: 150px;
+}
+
+.grid img {
+    max-height: 15%;
+    margin-left: -20px;
 }
 
 .content .offers p{
@@ -237,6 +249,7 @@ h2 {
 .trips {
     display: flex;
     justify-content: space-around;
+    padding-top: 10px;
 }
 
 .trips figure {
@@ -259,6 +272,8 @@ form {
     justify-items: center;
     background-color: #303030;
     padding: 10px 10px;
+    position: relative;
+    z-index: 1;
 }
 
 form * {
