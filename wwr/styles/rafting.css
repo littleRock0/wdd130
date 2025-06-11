@@ -141,7 +141,33 @@ section h1 {
 }
 
 .action {
-    align-items: center;
+    justify-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.action p {
+    margin-bottom: 8px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 15px 0;
+}
+
+.content .purpose p{
+    margin: -2px 0px;
+    margin-right: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.content .offers p{
+    margin: -2px 0px;
 }
 
 .head {
@@ -216,6 +242,11 @@ h2 {
 .trips figure img {
     height: 80%;
     max-height: 200px;
+}
+
+.trips .adjust p {
+    margin-top: -3px;
+    margin-bottom: -10px;
 }
 
 form {
