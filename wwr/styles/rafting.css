@@ -179,6 +179,10 @@ section h1 {
     padding-bottom: 185px;
 }
 
+.grid figure {
+    max-height: 150px;
+}
+
 .grid img {
     max-height: 14%;
     margin-left: -20px;
