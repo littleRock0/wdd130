@@ -150,6 +150,10 @@ section h1 {
     margin-bottom: 8px;
 }
 
+.action a {
+    color: var(--accent3-color);
+}
+
 .content {
     display: grid;
     grid-template-columns: 1fr 1fr;
