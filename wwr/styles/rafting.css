@@ -271,9 +271,17 @@ h2 {
 }
 
 .trip-table {
-    margin: 30px 15px;
+    width: 100%;
+    padding: 15px 30px;
     font-family: var(--body-font);
     color: var(--accent1-color);
+    background-color: var(--primary-color);
+    margin-left: 0;
+    margin-bottom: -5px;
+}
+
+ .trip-table * {
+    background-color: var(--primary-color);
 }
 
 .trip-table table {
