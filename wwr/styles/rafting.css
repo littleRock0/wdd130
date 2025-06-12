@@ -259,6 +259,11 @@ h2 {
     max-width: 840px;
 }
 
+.trips .fig figure {
+    justify-content: space-around;
+    padding-left: 20px;
+}
+
 .trips figure p {
     margin-left: -5px;
 }
@@ -271,7 +276,11 @@ h2 {
 .trips .adjust p {
     margin-top: -1px;
     margin-bottom: -10px;
-    max-width: 900px;
+    max-width: 800px;
+}
+
+.adjust {
+    margin-left: 10px;
 }
 
 .trip-table {
